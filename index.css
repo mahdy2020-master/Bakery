@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width:80%;
+    margin-left:10%;
+    margin-right:10%;
+}
+/* دا الكلاس الخاص بي الموقع اللي فية الناف بار والخلفية */
+.cover{
+    /* background-color: blue; */
+    width: 100%;
+    height: 105vh;
+    background-image: url(images/images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center center;
+position: relative;
+text-align: center;
+
+}
+/* دا الكلاس بتاع الديف اللي عامل لون علي الخلفية */
+.color-cover{
+    width: 100%;
+    height: 105vh;
+    /* margin-top: 100px; */
+   background-color: rgba(0,0,0,0.40);
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 1;
+   
+  }
+  .clr{
+    clear:both;
+}
+    /* دا الكلاس الخاص بيالرناف بار */
+    .header{
+        /* background-color: chocolate; */
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        width: 100%;
+
+    }
+    /* دا الديف الخاص بللجو */
+    .logo{
+        float: left;
+        /* background-color: darkcyan; */
+        width: 20%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+
+    }
+    /* دا اللجو نفسو */
+    .logo img{
+        width: 50%;
+        margin-top: 5px;
+        padding-bottom: 5px;
+       
+        margin-bottom: 5px;
+    }
+    /* دا الديف الخاص بي الناف بار */
+    .nav{
+        float: right;
+        width: 50%;
+        /* background-color: darkred; */
+        margin-top:1.5%;
+        
+    
+    }
+    .nav ul{
+        float: right;
+        list-style: none;
+    }
+    .nav  li {
+        float: left;
+        padding-top:1.5px;
+        border-top: 1px solid transparent;
+        
+        }
+        .nav a{
+            padding: 8px;
+            color: white;
+            text-decoration: none;
+            font-size: 2.5vh;
+        }
+        .home{
+            border-top: goldenrod solid 1px!important;
+            
+        }
+        /* .contner{
+            background-color: indigo;
+            position: absolute;
+            z-index: 3;
+        } */
+.main_text {
+    padding-top: 5%;
+}
+
+.header_text {
+    height:70vh;
+    background-color:red
+}
+
+.cover-text {
+  margin-top:15%;
+  color: white;
+}
+
+.side_menu {
+    position: fixed;
+    right:0;
+    padding:7px;
+    background-color:white;
+    top:30%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    z-index:99999
+}
+
+.side_menu > div {
+    text-align: center;
+    margin-bottom:2px;
+    
+}
+.cover-text span{
+    font-size: 20px;
+}
+.cover-text h2{
+    font-size: 87px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bolder;
+}
+.cover-text p{
+    font-size: 20px;
+}
+
+.btu1{
+    margin-top: 15px;
+padding:18px;
+border-radius:10%;
+background-color:#8e7754;
+border: #8e7754 solid 1px;
+
+}
+.btu2{
+    margin-top: 15px;
+    padding: 18px;
+    border: white solid 1px;
+    border-radius: 10% ;
+    margin-left: 3px;
+    background-color: transparent;
+}
+.center{
+    width: 100%;
+    margin-top: 50px;
+    
+}
+.img-center{
+ float: left;
+ width: 40%;
+ margin-top: 2%;
+ margin-left: 5%;
+ 
+}
+.img-center img{
+    width: 100%;
+}
+.image-text {
+    padding-top:5%;
+    width:45%;
+    float:left;
+    margin-left: 50px;
+}
+.image-text span{
+    font-size: 30px;
+}
+.image-text p{
+    font-size: 18px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.image-text ul{
+    list-style: none;
+    font-size: 18px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.image-text li{
+    margin-top: 15px;
+}
+.clr{
+    clear: both;
+}
+.Our-Location{
+    margin-top:50px;
+    background-color:#f8f8f8;
+    width: 100%;
+}
+.OurLocation-img{
+    width: 40%;
+    float: right;
+    margin-right: 50px;
+}
+.OurLocation-img img{
+    width: 100%;
+}
+.OurLocation-text{
+    float: left;
+    width: 30%;
+    color:black;
+    margin-left: 10%;
+    margin-top:5% ;
+}
+.OurLocation-text p{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.Our-Baking{
+  
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Our-Baking-img p{
+    margin-top: 10px;
+}
+.Our-Baking-img-text div{
+    
+    width: 33.333333%;
+    float: left;
+}
+.Our-Baking-img-text img{
+    width:90%;
+}
+.img-edd{
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.Contact-Information-map{
+    background-color:#f8f8f8;
+    width: 40%;
+    float: right;
+    margin-top: 40px;
+    margin-right: 5%;
+    
+}
+.Contact-Information-inf{
+    width: 50%;
+    
+    float: left;
+    margin-right: 50px;
+    margin-top: 50px
+}
+.Contact-Information{
+    margin-top: 50px;
+    background-color:#f8f8f8;
+   
+    
+}
+.con-map{
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.Contact-Information-inf p{
+    margin-top: 20px;
+}
+.Contact-Information-inf ul{
+    list-style: none;
+}
+.Contact-Information-inf li{
+    padding-top: 10px;
+}
+.list{
+    background-color: #403d38;
+    width: 100%;
+ }
+.con-list{
+    /* background-color: chartreuse; */
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top:2.5%;
+    padding-bottom:2.5%;
+    color:white;
+    
+
+} 
+ .con-list div{
+width: 22%;
+float: left;
+margin-right: 1.5%;
+margin-left: 1.5%;
+}
+.p{
+ /* background-color: darkmagenta; */
+    float: left;
+    color:#72797f;
+} 
+.p h3{
+    font-size:18px;
+    line-height: 1.5;
+    
+}
+.p p{
+    font-size: 18px;
+    line-height: 1.5;
+    padding-top:5px;
+}
+
+.p ul {
+    list-style: none;
+}
+
+.p ul li {
+    padding-top:10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    border-bottom: 1px solid #484540;
+}
+
+.p ul li span {
+    display: inline-block;
+    font-size:20px;
+    font-weight: bold;
+    padding-right:10px;
+}
+
+.end{
+    background-color: #353330;
+}
+
+footer {
+    background-color: #34332f;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer p {
+    color:#505655;
+    padding-top:10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
+    display: inline-block;
+    padding:10px;
+    font-size: 30px;
+    color: #484540;
+    border-radius: 15px;
+}
+
+footer li i {
+    width:100%;
+
+
+}
+
+
+.backImage {
+    position: relative;
+}
+
+.backImage > img {
+    position: absolute;
+    top:20%;
+    opacity: .3;
+}
